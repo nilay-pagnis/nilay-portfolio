@@ -1,0 +1,6 @@
+.main-container {
+    background-color: rgb(252, 252, 252);
+    background-image: url("../assets/bg1.png");
+    height: 320vh;
+    /* rgb(255, 153, 0); */
+}

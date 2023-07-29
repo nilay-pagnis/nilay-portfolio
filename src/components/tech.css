@@ -1,0 +1,30 @@
+.tech-container {
+    height: 80vh;
+    width: 70%;
+    background-color: rgb(134, 12, 182);
+    margin-top: 60px;
+    margin-left: 14%;
+    border-radius: 10px;
+    color: white;
+}
+.tech-subHeading {
+    text-align: center;
+    padding-top: 20px;
+}
+.tech-subHeading > h2{
+    margin-bottom: 1.5em;
+}
+.tech-names-Grid {
+    width: 50%;
+    margin: 0px 62px 0px 15em;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 150px auto 150px;
+    column-gap: 60px;
+    row-gap: 0px;
+    text-align: center;
+    align-items: center;
+}
+.lang-img > img {
+    height: 60px;
+}

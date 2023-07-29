@@ -1,0 +1,49 @@
+.section-container {
+    height: 80vh;
+    width: 70%;
+    background-color: rgb(134, 12, 182);
+    margin-top: 60px;
+    margin-left: 14%;
+    border-radius: 10px;
+    z-index: 9999;
+    color: white;
+}
+.introduction {
+    width: 60%;
+    margin: 0px 10px 10px 10px;
+    position: relative;
+    top: 5em;
+    /* background-color: yellowgreen; */
+}
+h1, h2 {
+    margin: 0px 5px;
+    font-size: 2.5rem;
+}
+p {
+    margin-left: 5px;
+    color: rgb(207, 207, 207);
+    font-size: 1.5rem;
+}
+.inside-container {
+    display: flex;
+    justify-content: center;
+}
+.main-img > img{
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 25%;
+}
+.socialMedia-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.social-lists {
+    position: relative;
+    margin-left: 30px;
+    top: -1em;
+    left: 3%;
+}
+.social-lists > img {
+    height: 40px;
+}
