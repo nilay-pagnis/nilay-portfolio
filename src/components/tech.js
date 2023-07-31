@@ -19,13 +19,13 @@ export default function TechnologyUsed() {
             <div className='grid1'>
               <div className='lang-img'>
                 <img src={require("../assets/nodejs.png")} alt='nodejs' />
-                <p>Node Js</p>
+                <p>NodeJs</p>
               </div>
             </div>
             <div className='grid1'>
               <div className='lang-img'>
                 <img src={require("../assets/react.png")} alt='reactjs' />
-                <p>React Js</p>
+                <p>ReactJs</p>
               </div>
             </div>
             <div className='grid1'>

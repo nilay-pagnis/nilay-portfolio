@@ -7,11 +7,9 @@
     border-radius: 10px;
     color: white;
 }
-.tech-subHeading {
+.tech-subHeading > h2{
     text-align: center;
     padding-top: 20px;
-}
-.tech-subHeading > h2{
     margin-bottom: 1.5em;
 }
 .tech-names-Grid {
@@ -20,11 +18,42 @@
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     grid-template-rows: 150px auto 150px;
-    column-gap: 60px;
+    column-gap: 90px;
     row-gap: 0px;
     text-align: center;
     align-items: center;
 }
 .lang-img > img {
     height: 60px;
+}
+@media screen and (max-width: 800px) {
+    .tech-container {
+        height: 182vh;
+        width: 80%;
+        background-color: white;
+        margin-top: 600px;
+        border-radius: 10px;
+        margin-left: 10%;
+        color: rgb(134, 12, 182);
+    }
+        .tech-subHeading {
+            padding-top: 250px;
+    }
+    .tech-subHeading > h2{
+        text-align: center;
+        align-items: center;
+    }
+    .tech-names-Grid {
+        width: 50%;
+        /* margin: 0px 62px 0px 15em; */
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: 200px 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px;
+        column-gap: 120px;
+        row-gap: 130px;
+        position: relative;
+        left: -223px;
+    }
+    
 }

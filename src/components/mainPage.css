@@ -2,5 +2,13 @@
     background-color: rgb(252, 252, 252);
     background-image: url("../assets/bg1.png");
     height: 320vh;
-    /* rgb(255, 153, 0); */
+}
+element.style {}
+
+@media screen and (max-width: 800px)  {
+    .main-container {
+        width: 373vw;
+        height: 372vh;
+    }
+    
 }

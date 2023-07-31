@@ -14,7 +14,6 @@
     height: 230px;
     width: 390px;
     border-radius: 10px;
-
 }
 .lists {
     width: 26%;
@@ -44,4 +43,53 @@
 .webLink:hover {
     color: aliceblue;
     font-size: 1.2rem;
+}
+@media screen and (max-width: 800px) {
+    .projects-container {
+        height: 90vh;
+        width: 100%;
+        background-color: white;
+        margin-top: 100px;
+        border-radius: 10px;
+        color:rgb(134, 12, 182);
+    }
+    .projects-list {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        font-size: 3rem;
+    }
+    .project-heading {
+        margin-bottom: 0px;
+        color: rgb(134, 12, 182);
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .lists {
+        width: 75%;
+        border-radius: 10px;
+        margin: 100px 115px;
+    }
+    .lists>img {
+        height: 700px;
+        width: 1300px;
+        border-radius: 10px;
+    }
+    .description {
+        margin-top: 0px;
+        font-size: 2.6rem;
+    }
+
+    .webLink {
+        text-decoration: none;
+        color: rgb(248, 194, 33);
+        font-weight: bold;
+        border-bottom: 2px solid black;
+        transition: 0.5s ease-in-out;
+        font-size: 2rem;
+    }
+    .webLink:hover {
+        color: aliceblue;
+        font-size: 2.2rem;
+    }
 }

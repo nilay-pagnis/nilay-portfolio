@@ -47,3 +47,51 @@ p {
 .social-lists > img {
     height: 40px;
 }
+@media screen and (max-width: 800px) {
+    .introduction {
+        width: 100%;
+        margin: 0px 10px 10px 10px;
+        position: relative;
+        top: 5em; 
+    }
+    .section-container {
+        height: 90vh;
+        width: 80%;
+        margin-top: 60px;
+        margin-left: 10%;
+        border-radius: 10px;
+        z-index: 9999;
+        background-color: white;
+        color: rgb(134, 12, 182);
+    }
+    .main-img>img {
+        height: 450px;
+        border-radius: 15px;
+        margin-top: 10%;
+    }
+    .inside-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-lists {
+        position: relative;
+        margin-left: 30px;
+        top: -25em;
+        left: -3em;
+    }
+    h1,
+    h2 {
+        margin: 0px 5px;
+        font-size: 6.5rem;
+    }
+    p {
+        margin-left: 5px;
+        color: rgb(172, 170, 170);
+        font-size: 3.5rem;
+    }
+    .social-lists>img {
+        height: 100px;
+    }
+}
